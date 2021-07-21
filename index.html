@@ -1,14 +1,79 @@
 <!DOCTYPE html>
-<html lang="de" xml:lang="de" xmlns="http://w3.org/1999/xhtml">
+<html lang="de" xml:lang="de" xmlns="https://www.w3.org/1999/xhtml">
     <head>
+        <meta charset="utf-8">
         <title>test website - Hello</title>
     </head>
     <body lang="en" xml:lang="en">
+        <header>
+            header element - Some heading information here eg. company-Logo . . . 
+            <nav>navigation area</nav>
+        </header>
         <h1 style="color: green; font-size: 60px; text-align: center;">Hello-World!</h1>
         <h2>First HTML-Testpage</h2>
         <h4>New Line to be committed</h4>
         <p style="margin: 0 100px 0 100px; font-size: 1.5em;">New Paragraph element</p>
         <p>Another Line to test</p>
+        <hr>
+        <section>
+            Section 1
+            <article>Article 1</article>
+            <article>Article 2</article>
+            <article>Article 3</article>
+        </section>
+        <section>
+            Section 2
+            <article>Article 4</article>
+            <article>Article 5</article>
+        </section>
+        <aside>
+            ASIDE - Sime&nbsp;information&nbsp;that relates to the main topic...
+        </aside>
+        <section style="color: cyan;">
+            My first bulletlist:
+            <ul>
+                <li>Milk</li>
+                <li>Donuts</li>
+                <li>Cookies</li>
+                <ul>
+                    <li>Chocolate</li>
+                    <li>Sugar</li>
+                    <li>Peanut Butter</li>
+                </ul>
+                <li>Pepto &amp; Bismol</li>
+            </ul>
+        </section>
+        <section style="color: chartreuse;">
+            Ordered List:
+            <ol>
+                <li>First item</li>
+                <li>second item</li>
+                <li>third item &ge;</li>
+                <ol>
+                    <li>first sub item</li>
+                    <li>second sub item</li>
+                </ol>
+                <li>last item</li>
+            </ol>
+        </section>
+        <section>
+            Escaped Chars:
+            <ul>
+                <li>Zeichen: <span style="font-weight: bold;">&amp;</span> = <span style="font-style: italic;">"&amp;amp;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&lt;</span> = <span style="font-style: italic;">"&amp;lt;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&le;</span> = <span style="font-style: italic;">"&amp;le;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&gt;</span> = <span style="font-style: italic;">"&amp;gt;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&ge;</span> = <span style="font-style: italic;">"&amp;ge;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&copy;</span> = <span style="font-style: italic;">"&amp;copy;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&caron;</span> = <span style="font-style: italic;">"&amp;caron;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&euro;</span> = <span style="font-style: italic;">"&amp;euro;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&quot;</span> = <span style="font-style: italic;">"&amp;quot;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&ShortLeftArrow;</span> = <span style="font-style: italic;">"&amp;ShortLeftArrow;"</span></li>
+                <li>Zeichen: <span style="font-weight: bold;">&lambda;</span> = <span style="font-style: italic;">"&amp;lambda;"</span></li>
+                <li>...</li>
+            </ul>
+        </section>
+        <hr>
         <table style="width:100%">
             <tr>
                 <th>a</th>
@@ -26,6 +91,14 @@
                 <th></th>
             </tr>
         </table>
+        <div style="color: blue; text-align: center;">*** DIV 1: Some content here ***</div>
+        <div style="color:firebrick; text-align: right; font-weight: 400; font-style: oblique;">*** DIV 2: Following right after div 1 ***</div>
+        <span style="border: 1mm; color:aliceblue; background-color: blue;" >*** SPAN 1: Following tight after div 2 ***</span>
+        <div style="background-color: bisque; text-align: center;">
+            *** DIV 3: Following right after span 1
+            <span style="color: darkslategray; font-weight: bold;">*** SPAN 2: INSIDE div 3 ***</span>
+            Continue content of div 3 ***
+        </div>
         <footer>
             <hr>
             <p style="text-align: center;" onclick="alert('EMAILING US IS USELESS');">Tech Support: yeah.right@server-is-down.com</p>
